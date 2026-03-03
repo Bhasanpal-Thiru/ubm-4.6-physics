@@ -1,26 +1,23 @@
-# UBM 4.6: Theory and Numerical Verification
+# UBM-4.6-EFT: Unified Buffer Model Verification
 
-This repository contains the numerical proofs and simulation scripts for the 
-**Unified Buffer Model 4.6** as submitted to Physical Review D (Letters).
+This repository contains the numerical verification codes for the paper:
+**"Unified Buffer Model 4.6: A Degenerate Higher-Order Scalar-Tensor EFT for Gauge Unification and Flavor Topology"** (arXiv:2603.xxxxx).
+[![DOI](https://zenodo.org/badge/1171734140.svg)](https://doi.org/10.5281/zenodo.18850770)
 
 ## Topics:
 theoretical-physics, dhost-gravity, general-relativity, dark-matter-alternative, juice-mission.
 
-## Code-to-Figure Mapping
-- **Figure 1 (SO(10) Unification):** See `notebooks/01_RGE_Unification.ipynb`. 
-  Uses $\xi = -1.21 \times 10^{-12}$ to match PDG 2024 $\alpha_s(M_Z)$.
-- **Figure 2 (Kinetic Stability):** See `notebooks/02_DHOST_Stability.ipynb`. 
-  Symbolic proof that $Q(X) > 0$ across all scales $X \in [0, M_P^4]$.
-- **Figure 3 (CP Phase):** See `notebooks/03_Flavor_Topology.ipynb`. 
-  Derivation of $\delta_{CP} \approx 1.32\pi$ from topological boundaries.
-- **JUICE Forecast (Sec. V):** See `scripts/juice_forecast.py`. 
-  Monte Carlo prediction of $+1.84 \times 10^{-8}$ Hz Doppler shift for Sept 29, 2026.
+## 🔭 Overview
+The UBM 4.6 framework is a Class Ia DHOST Effective Field Theory that resolves the non-SUSY SO(10) unification gap.
 
-## Requirements
-- Python 3.11+
-- SymPy (Symbolic Math)
-- NumPy / Matplotlib (Plotting)
+### Key Predictables:
+- **Strong Coupling:** $\alpha_s(M_Z) = 0.1179$ (matching PDG 2024).
+- **CP Violation:** Derives $\delta_{CP} \approx 1.32\pi$.
+- **JUICE Flyby:** Predicts a $+1.84 \times 10^{-8}$ Hz Doppler shift for the Sept 29, 2026 Earth assist.
 
-## Citation
-Please cite the corresponding PRD Letter (arXiv:2603.XXXXX) when using this code.
-[![DOI](https://zenodo.org/badge/1171734140.svg)](https://doi.org/10.5281/zenodo.18850770)
+## 🛠 Usage
+Requires Python 3.8+ with `numpy` and `matplotlib`.
+
+```bash
+pip install -r requirements.txt
+python rge_plot.py
