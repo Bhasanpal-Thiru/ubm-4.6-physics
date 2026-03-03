@@ -4,8 +4,14 @@ This repository contains the numerical verification codes for the paper:
 **"Unified Buffer Model 4.6: A Degenerate Higher-Order Scalar-Tensor EFT for Gauge Unification and Flavor Topology"** (arXiv:2603.xxxxx).
 [![DOI](https://zenodo.org/badge/1171734140.svg)](https://doi.org/10.5281/zenodo.18850770)
 
-## Topics:
+## Topics
 theoretical-physics, dhost-gravity, general-relativity, dark-matter-alternative, juice-mission.
+
+## 📂 Contents
+​rge_plot.py: 1-loop RGE flow with DHOST threshold corrections.
+​requirements.txt: Environment dependencies.
+​ancillary/: (Coming soon) SymPy ADM degeneracy notebooks.
+​<!-- end list -->
 
 ## 🔭 Overview
 The UBM 4.6 framework is a Class Ia DHOST Effective Field Theory that resolves the non-SUSY SO(10) unification gap.
