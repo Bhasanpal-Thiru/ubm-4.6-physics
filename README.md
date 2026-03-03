@@ -20,3 +20,4 @@ This repository contains the numerical proofs and simulation scripts for the
 
 ## Citation
 Please cite the corresponding PRD Letter (arXiv:2603.XXXXX) when using this code.
+[![DOI](https://zenodo.org/badge/1171734140.svg)](https://doi.org/10.5281/zenodo.18850770)
