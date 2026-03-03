@@ -8,10 +8,9 @@ This repository contains the numerical verification codes for the paper:
 theoretical-physics, dhost-gravity, general-relativity, dark-matter-alternative, juice-mission.
 
 ## 📂 Contents
-​rge_plot.py: 1-loop RGE flow with DHOST threshold corrections.
-​requirements.txt: Environment dependencies.
-​ancillary/: (Coming soon) SymPy ADM degeneracy notebooks.
-​<!-- end list -->
+- ​rge_plot.py: 1-loop RGE flow with DHOST threshold corrections. ​
+- requirements.txt: Environment dependencies. 
+- ​ancillary/: (Coming soon) SymPy ADM degeneracy notebooks.
 
 ## 🔭 Overview
 The UBM 4.6 framework is a Class Ia DHOST Effective Field Theory that resolves the non-SUSY SO(10) unification gap.
